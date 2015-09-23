@@ -11,7 +11,7 @@ sed '/vundle#end/{q;}' $DIR/.vimrc > ~/.vimrc
 
 vim -c 'BundleInstall!' -c q
 
-( cd ~/.vim/bundle/YouCompleteMe && ./install.py --omnisharp-completer --gocode-completer --clang-completer && brew install npm && npm install -g typescript ;)
+( cd ~/.vim/bundle/YouCompleteMe && ./install.py --omnisharp-completer --gocode-completer --clang-completer ;)
 
 
 rm ~/.vimrc
