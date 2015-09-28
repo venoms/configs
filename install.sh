@@ -18,7 +18,7 @@ function exists {
 	command -v $1 > /dev/null 2>&1
 }
 
-packages="go npm vim ctags cmake clang-format"
+packages="go npm vim ctags cmake"
 if exists apacman; then
 	apacman -S $packages
 elif exists pacman; then
