@@ -17,6 +17,3 @@ function lspw {
 
 set -o vi
 export EDITOR=vim
-
-PS1='┌[z@\h]─[\[\e[2;34m\]\W\[\e[0;00m\]]\n\[\e[0;00m\]└[\[\e[2;33m\]\$\[\e[0;00m\]]> \[\e[2;33m\]'
-trap 'echo -ne "\e[0;00m"' DEBUG
