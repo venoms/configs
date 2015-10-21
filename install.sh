@@ -63,5 +63,7 @@ function installycm {
 
 ( cd ~/.vim/bundle/YouCompleteMe ; installycm ;) # it breaks if you don't end with a winky face
 
+( cd ~/.vim/bundle/tern_for_vim && npm install ;)
+
 rm ~/.vimrc
 ln -s $DIR/.vimrc ~/.vimrc

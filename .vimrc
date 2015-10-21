@@ -6,6 +6,7 @@ call vundle#begin()
 
 "Vundle plugins
 Plugin 'gmarik/Vundle.vim'
+Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-commentary'
 Plugin 'scrooloose/syntastic'
@@ -69,8 +70,8 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd guibg=#808080 ctermbg=102
 let g:html_indent_inctags = "html,body,head,tbody" 
 
 "let tab be eight spaces (a lota spaces)
-set tabstop=8
-set shiftwidth=8
+set tabstop=4
+set shiftwidth=4
 
 "I like my tabs, thanks
 set noexpandtab
@@ -122,3 +123,6 @@ nmap <F8> :TagbarToggle<CR>
 
 "stop checking my python
 let g:syntastic_python_checkers=[]
+
+"make gocode insert imports on save
+let g:go_fmt_command = "goimports"
