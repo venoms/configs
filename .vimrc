@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'vim-scripts/SyntaxComplete'
 Plugin 'tpope/vim-commentary'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
@@ -125,4 +126,4 @@ nmap <F8> :TagbarToggle<CR>
 let g:syntastic_python_checkers=[]
 
 "make gocode insert imports on save
-let g:go_fmt_command = "goimports"
+"let g:go_fmt_command = "goimports"
