@@ -1,0 +1,1 @@
+vim -c "GoInstallBinaries" +qall

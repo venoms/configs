@@ -1,0 +1,1 @@
+go get -u golang.org/x/tools/cmd/goimports github.com/nsf/gocode golang.org/x/tools/cmd/guru github.com/golang/lint/golint github.com/rogpeppe/godef golang.org/x/tools/cmd/gorename github.com/kisielk/errcheck github.com/jstemmer/gotags 
